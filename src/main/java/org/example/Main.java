@@ -1,10 +1,17 @@
 package org.example;
 
+import java.util.Scanner;
+
 public class Main {
 
     public static void main(String[] args) {
-        int x = 9;
-        int y = 7;
+        Scanner input = new Scanner(System.in);
+
+        System.out.println("Enter the first integer: " );
+        int x = input.nextInt();
+
+        System.out.println("Now enter the second integer: " );
+        int y = input.nextInt();
 
         var addResult = new Add();
         var subtractResult = new Subtract();

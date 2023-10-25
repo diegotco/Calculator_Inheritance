@@ -7,10 +7,10 @@ public class Main {
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
 
-        System.out.println("Enter the first integer: " );
+        System.out.println("Enter the first integer:" );
         int x = input.nextInt();
 
-        System.out.println("Now enter the second integer: " );
+        System.out.println("Now enter the second integer:" );
         int y = input.nextInt();
 
         var addResult = new Add();
